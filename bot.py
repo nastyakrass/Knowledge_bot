@@ -38,5 +38,4 @@ def get_text_messages(message):
         with open("query.txt", "w") as f:
             f.write('Где живет енот')
 
-
- bot.polling(none_stop=True, interval=0)
+bot.polling(none_stop=True, interval=0)
